@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Adoção</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🐾 Quero Adotar</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="animais.html">Animais</a>
+            <a href="formulario.html">Quero Adotar</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="https://formsubmit.co/seuemail@email.com" method="POST" class="formulario">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="animal">Nome do animal que deseja adotar:</label>
+            <input type="text" id="animal" name="animal" required>
+
+            <label for="mensagem">Por que deseja adotar?</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Amigos para Sempre.</p>
+    </footer>
+</body>
+  </html>
