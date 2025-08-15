@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fffaf0;
+    color: #333;
+}
+
+header {
+    background: #ff914d;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.botao {
+    background: #ff914d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.animal {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.animal img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input, .formulario textarea, .formulario button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
